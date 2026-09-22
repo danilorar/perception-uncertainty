@@ -3,7 +3,7 @@
 1. Open a terminal and run:
 
 ```bash
-git clone --recurse-submodules https://github.com/danilorar/perception-uncertainty.git
+git clone https://github.com/danilorar/perception-uncertainty.git
 cd perception-uncertainty
 ```
 

@@ -2,8 +2,10 @@ OpenScenarioDrive-Linux-x86_64.AppImage
 .venv 
 .vscode
 
-# Ignore NCAP-scenarios
-OSC-NCAP-scenarios/*
+# Python cache
+__pycache__/
+*.pyc
+
 
 # Ignore all files in the esmini-demo directory except results and scripts
 esmini-demo/*
