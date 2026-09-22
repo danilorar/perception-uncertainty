@@ -1,4 +1,14 @@
 OpenScenarioDrive-Linux-x86_64.AppImage
 .venv 
 .vscode
-esmini-demo
+
+# Ignore NCAP-scenarios
+OSC-NCAP-scenarios/*
+
+# Ignore all files in the esmini-demo directory except results and scripts
+esmini-demo/*
+!esmini-demo/results/
+!esmini-demo/results/**
+!esmini-demo/scripts/
+!esmini-demo/scripts/**
+
